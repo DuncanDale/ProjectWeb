@@ -1,0 +1,97 @@
+body{ 
+    width; 90%;
+    background-color: gainsboro;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+
+
+section#navagation{
+    
+}
+
+.navbar{
+    background-image: url(images/cfcbanner.png);
+    background-size: 750px 175px;
+	border-bottom: px solid grey;
+	height: 160px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+    border:10px solid white;
+    
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+    text-align: center;
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+    text-align: center;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: blue;
+	border-radius: 2px;
+}
+
+.header-img{
+    float: left 50%;
+   position: inherit;
+    background-size: 100% 50%;
+width: 50%;
+height: 50%;
+    
+min-height:100%;
+}
+
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    color: blue;
+    
+}
+main{
+    width: 80%;
+    height: 1350px;
+    border-right: 1px solid black;
+    float: left;
+    background-color: gainsboro;
+}
+
+.intro{
+    font-size: 25px;
+    padding: 10px 140px;
+    
+}
+
+aside{
+    
+    width: 0%;
+    float: right;
+    position: relative;
+    border: 3px  solid grey;
+    border-top-color: gray;
+     
+}

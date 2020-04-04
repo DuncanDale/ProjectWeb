@@ -1,0 +1,57 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Chelsea Fc</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+   </head>
+    
+    <body>
+        <header>
+        
+        </header>
+        <main>
+   <section>
+        <h3>Please enter the following information: (form action=" http://year1.ccpdev.me/FormTest.php method="post")
+        </h3>
+       
+       <form action="http://year1.ccpdev.me/FormTest.php" method ="post">
+       
+           <label for="first-name">First Name:<span class="required">*</span></label>
+           <input type="text" name="first-name" id="first-name" autofocus required><br>
+       
+           <label for="last-name">Last Name:<span class="required">*</span></label>
+           <input type="text" name="last-name" id="last-name" required><br>
+       
+           <label for="email">Email:<span class="required">*</span></label>
+           <input type="email" name="email" pattern="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,})+)$" id="email" required placeholder="Johnhanna@example.com"><br>
+       
+           <label for="gender">Gender:</label>
+           <fieldset>
+           <input type="radio" id="gender" name="gender" value="male">Male
+           <input type="radio" id="gender" name="gender" value="female">Female
+           <input type="radio" id="gender" name="gender" value="other" checked>Other<br>
+           </fieldset>
+           <br>
+           
+           <label for="internet">Heard of us:</label>
+           <fieldset>
+           <input type="checkbox" name="internet" id="internet" value="internet" >Internet<br>
+           <input type="checkbox" class="marginl" id="hear" name="paper" value="paper" >Paper<br>
+           <input type="checkbox" class="marginl" id="hear" name="friend" value="friend" >Friend<br>
+           <input type="checkbox" class="marginl" id="hear" name="Add" value="Add" checked>Others<br>
+           </fieldset>
+           <br>
+           
+           <label for="message">Query   :</label>
+           <textarea cols="40"rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea><br>
+           
+           <input type="submit" name="submit" id="button" value="submit">
+           <input type="reset" name="reset" id="button">
+          
+       </form>
+        <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required feild</em></p>
+        </section>
+            </main>
+        
+</body>
+</html>
